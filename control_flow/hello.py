@@ -28,9 +28,13 @@ elif score > 60 :
 else :
     print("加油")
 
+for char in "书山有路勤为径，学海无涯苦作舟。":
+    if (char == "，") or (char == "。"):
+        continue
+    print(char, end=" ")
 
 #-------------while循环计算水仙花数---------------
-print("while循环计算水仙花数")
+print("\nwhile循环计算水仙花数")
 i = 100; u = 0; v = 0; w = 0
 
 while i < 1000 :
