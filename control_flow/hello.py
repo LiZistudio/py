@@ -3,7 +3,7 @@
 import world
 from world import z
 from world import x as x2
-
+from secondFunction import secondFunction
 
 str = "开门见山"
 print(str)
@@ -58,3 +58,9 @@ for i in range(100,1000):
         print("i = ",i)
 else :
     print("循环结束")
+
+
+a = 1
+b = 2
+a,b = secondFunction(a,b)
+print("函数调用后:a =",a," b =",b)
